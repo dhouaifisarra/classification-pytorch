@@ -1,10 +1,5 @@
 # Aerial Image Classification: Sea vs. Forest
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red)
-![DVC](https://img.shields.io/badge/DVC-Data_Version_Control-9cf)
-![Status](https://img.shields.io/badge/Build-Passing-success)
-
 ## Project Overview
 This project implements an end-to-end MLOps pipeline for binary image classification, distinguishing between aerial views of **Forests** and **Sea**.
 
@@ -43,7 +38,7 @@ The model uses a **ResNet18** backbone and achieves high accuracy on the test se
     dvc pull
     ```
 
-## 🚀 Usage
+## Usage
 
 ### 1. Training (K-Fold Cross-Validation)
 To train the model using K-Fold Cross-Validation:
